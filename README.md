@@ -52,6 +52,6 @@ Users should be able to:
 ## Author
 
   - Frontend Mentor - [@Ghoulam-Ali](https://www.frontendmentor.io/profile/Ghoulam-Ali)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@Ghoulam_Ali](https://twitter.com/Ghoulam_Ali)
 
 

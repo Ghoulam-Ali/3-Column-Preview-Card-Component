@@ -31,7 +31,8 @@ Users should be able to:
 
 
 ## Mobile
-[](./screenshot.jpg)
+![Screen Shot 2022-10-13 at 02 27 12](https://user-images.githubusercontent.com/114541323/195473479-88807923-608c-478c-a2c1-1cbffa4583d2.png)
+
 
 ### Links
 

@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/3columnpreviewcardcomponent-IVQVecIOQO
-- Live Site URL:[(https://your-live-site-url.com)](https://rak-3-column-preview-card-component.netlify.app/)
+- Live Site URL:https://rak-3-column-preview-card-component.netlify.app/
 
 ## My process
 

@@ -1,0 +1,121 @@
+@import "base";
+
+body {
+  background: $white-color;
+  font-family: $famliy-1;
+  font-size: $font-size;
+  @include center;
+  height: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1000px;
+  margin-top: 10rem;
+  height: 60vh;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 13px 13px 20px #9f9f9f, -13px -13px 20px #efefef;
+
+  section {
+    @include center;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px;
+
+    .icon {
+      @include icon-style;
+    }
+
+    h2 {
+      @include h2-style;
+    }
+
+    p {
+      @include paragraphs-style;
+    }
+
+    button {
+      @include button-style;
+    }
+    button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    button:hover span {
+      padding-right: 25px;
+    }
+    button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  }
+}
+
+#section-1 {
+  background: $sedans-bg-color
+}
+#section-2 {
+  background: $suvs-bg-color
+}
+#section-3 {
+  background: $luxury-bg-color
+}
+#sedans-button {
+  @include sedans-button-style;
+}
+#suvs-button {
+  @include suvs-button-style;
+}
+#luxury-button {
+  @include luxury-button-style;
+}
+
+// footer
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  line-height: 26px;
+  color: #333;
+  margin-top: 20px;
+}
+.attribution a {
+  text-decoration: none;
+  color: $suvs-bg-color;
+}
+.attribution a:hover {
+  cursor: pointer;
+  color: $sedans-bg-color;
+}
+
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 2rem;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  section {
+    h2 {
+      margin-top: 40px;
+    }
+    p {
+      margin-top: 40px;
+    }
+  }
+}

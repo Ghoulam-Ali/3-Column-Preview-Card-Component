@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$famliy-1: "Lexend Deca", sans-serif;
+$famliy-2: "Big Shoulders Display", cursive;
+$sedans-bg-color: hsl(31, 77%, 52%);
+$suvs-bg-color: hsl(184, 100%, 22%);
+$luxury-bg-color: hsl(179, 100%, 13%);
+$white-color: hsl(0, 0%, 95%);
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$font-size: 15px;
+
+
+@mixin center { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin icon-style {
+  width: 80px;
+  height: 50px;
+}
+
+@mixin h2-style {
+  font-family: $famliy-2;
+  color: $white-color;
+  font-size: 2.8rem;
+}
+
+@mixin paragraphs-style {
+  font-family: $famliy-1;
+  color: $transparent-white;
+  line-height: 1.8;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+@mixin button-style {
+  margin-top: 3rem;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 2rem;
+  cursor: pointer;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+@mixin sedans-button-style {
+  color: $sedans-bg-color;
+}
+@mixin suvs-button-style {
+  color: $suvs-bg-color;
+}
+@mixin luxury-button-style {
+  color: $luxury-bg-color;
+}

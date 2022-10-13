@@ -27,7 +27,8 @@ Users should be able to:
 ### Screenshot
 
 ## Desktop
-![](./screenshot.jpg)
+<img width="1278" alt="Screen Shot 2022-10-13 at 02 23 41" src="https://user-images.githubusercontent.com/114541323/195473416-481d0215-fcd8-4831-9c58-6eb29b8c6521.png">
+
 
 ## Mobile
 [](./screenshot.jpg)
